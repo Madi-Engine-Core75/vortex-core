@@ -1,0 +1,10 @@
+/data/data/com.termux/files/home/madi-vortex-system/rust-core/target/debug/deps/log-c64fb560138b1502.d: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/macros.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/serde.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/__private_api.rs
+
+/data/data/com.termux/files/home/madi-vortex-system/rust-core/target/debug/deps/liblog-c64fb560138b1502.rlib: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/macros.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/serde.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/__private_api.rs
+
+/data/data/com.termux/files/home/madi-vortex-system/rust-core/target/debug/deps/liblog-c64fb560138b1502.rmeta: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/macros.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/serde.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/__private_api.rs
+
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/lib.rs:
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/macros.rs:
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/serde.rs:
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.33/src/__private_api.rs:

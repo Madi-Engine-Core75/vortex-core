@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/MadiEngine-Core75/madi-Engine-Core
+	fetch = +refs/heads/*:refs/remotes/origin/*
