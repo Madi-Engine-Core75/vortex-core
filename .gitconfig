@@ -7,3 +7,7 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[credential]
+	helper = cache
+[commit]
+	gpgsign = true
