@@ -1,0 +1,6 @@
+[
+  { "id": "app.starting", "translation": "启动 Madi 引擎..." },
+  { "id": "gateway.server.started", "translation": "网关正在 {{.addr}} 上监听" },
+  { "id": "app.err.proto_not_found", "translation": "在 {{.path}} 找不到 proto 文件" },
+  { "id": "core.test.passed", "translation": "所有核心测试通过" }
+]
