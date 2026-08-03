@@ -1,3 +1,11 @@
 .bash_history
 .config/
 .bash_history
+# Cache and build directories
+.cache/
+.cargo/
+.npm/
+.ssh/
+go/pkg/
+target/
+logs/
