@@ -1,0 +1,6 @@
+[
+  { "id": "app.starting", "translation": "بدء تشغيل محرك مادي..." },
+  { "id": "gateway.server.started", "translation": "البوابة تستمع على {{.addr}}" },
+  { "id": "app.err.proto_not_found", "translation": "ملفات البروتو غير موجودة في {{.path}}" },
+  { "id": "core.test.passed", "translation": "جميع اختبارات النواة اجتازت" }
+]

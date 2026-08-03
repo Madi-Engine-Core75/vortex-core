@@ -1,0 +1,6 @@
+[
+  { "id": "app.starting", "translation": "Démarrage de Madi Engine..." },
+  { "id": "gateway.server.started", "translation": "Passerelle à l'écoute sur {{.addr}}" },
+  { "id": "app.err.proto_not_found", "translation": "Fichiers proto introuvables à {{.path}}\" },
+  { "id": "core.test.passed", "translation": "Tous les tests du noyau ont réussi" }
+]

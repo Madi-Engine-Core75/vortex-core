@@ -1,0 +1,18 @@
+[
+  {
+    "id": "app.starting",
+    "translation": "Starting Madi Engine..."
+  },
+  {
+    "id": "gateway.server.started",
+    "translation": "Gateway listening on {{.addr}}"
+  },
+  {
+    "id": "app.err.proto_not_found",
+    "translation": "Proto files not found at {{.path}}"
+  },
+  {
+    "id": "core.test.passed",
+    "translation": "All core tests passed"
+  }
+]

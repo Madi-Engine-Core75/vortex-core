@@ -1,0 +1,6 @@
+[
+  { "id": "app.starting", "translation": "Madi 엔진 시작 중..." },
+  { "id": "gateway.server.started", "translation": "게이트웨이가 {{.addr}} 에서 수신 대기 중입니다" },
+  { "id": "app.err.proto_not_found", "translation": "{{.path}}에서 proto 파일을 찾을 수 없습니다" },
+  { "id": "core.test.passed", "translation": "모든 코어 테스트가 통과했습니다" }
+]

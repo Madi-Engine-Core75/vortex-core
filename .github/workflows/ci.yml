@@ -1,0 +1,55 @@
+name: Madi-Engine-Core CI
+
+on:
+  push:
+    branches: [ main, main-bues ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Rust Toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.26'
+
+      - name: Install Protoc and tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y protobuf-compiler jq
+          go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+          go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+
+      - name: Generate protos (Go)
+        run: |
+          cd proto || exit 0
+          protoc --proto_path=. --go_out=../apps/gateway/proto --go-grpc_out=../apps/gateway/proto *.proto || true
+
+      - name: Validate i18n
+        run: |
+          bash scripts/i18n-validate.sh || true
+
+      - name: Build and Test Rust Core
+        run: |
+          cd core/rust-core
+          cargo build --verbose
+          cargo test --verbose
+
+      - name: Build and Test Go Gateway
+        working-directory: apps/gateway
+        run: |
+          go mod tidy
+          go build ./...
+          go test ./...

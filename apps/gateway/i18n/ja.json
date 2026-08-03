@@ -1,0 +1,6 @@
+[
+  { "id": "app.starting", "translation": "Madiエンジンを起動しています..." },
+  { "id": "gateway.server.started", "translation": "ゲートウェイは{{.addr}}で待機しています" },
+  { "id": "app.err.proto_not_found", "translation": "{{.path}}にプロトファイルが見つかりません" },
+  { "id": "core.test.passed", "translation": "コアのテストはすべて合格しました" }
+]
